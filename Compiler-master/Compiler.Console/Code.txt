@@ -1,0 +1,58 @@
+﻿{
+    float o;
+    int x;
+    int y;
+	datetime j;
+    int w;
+    string a;
+	bool no;
+	bool na;
+	no=false;
+	na= true;
+
+
+	j = datetime(11/26/1996);
+    y = 1;
+    o= 5.89;
+    a = 'hola peter!' + o;
+	foreach(no in na){
+	 print('fecha');
+	}
+	if(no && !na){
+		print('fecha2');
+	}
+
+	while(y==1){
+		y=2;
+
+	}
+    if(o>0)
+    {
+	print('yes');
+	
+	if(0 > 1)
+	{
+	    print('sure');
+	}
+	else
+	{
+	    print('who knows');
+	}
+    }
+    else if(y == 1)
+    {
+	print('no');
+	if(y > 2)
+	    print('true');
+
+	if(0 > 1)
+	{
+	    int one;
+	    int two;
+	    one = 1;
+	    two = 2;
+	    print(one+two);
+       }
+    }
+	
+}
